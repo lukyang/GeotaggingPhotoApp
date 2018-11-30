@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_scale_down.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_scale_down.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_slide_in_from_right.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/packaged_res/reactNative57/debug/anim/slide_down.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_slide_out_to_left.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_tooltip_enter.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_in.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_tooltip_exit.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_slide_in_from_left.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_scale_up.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_scale_up.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/fab_slide_out_to_right.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/res/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/packaged_res/reactNative57/debug/anim/slide_up.xml"
+    }
+]

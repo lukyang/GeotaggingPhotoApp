@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "738323569654",
+    "firebase_url": "https://geotaggingphotoapp.firebaseio.com",
+    "project_id": "geotaggingphotoapp",
+    "storage_bucket": "geotaggingphotoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738323569654:android:5a2b79a8003b16f9",
+        "android_client_info": {
+          "package_name": "com.luke.geotaggingphotoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738323569654-bmc235fuod1eq7bp0238jl5u92pqf4pc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdpz2hAfGvKrst3ph2ihyfQjGEaee_1EE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">738323569654-bmc235fuod1eq7bp0238jl5u92pqf4pc.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://geotaggingphotoapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">738323569654</string>
+    <string name="google_api_key" translatable="false">AIzaSyCdpz2hAfGvKrst3ph2ihyfQjGEaee_1EE</string>
+    <string name="google_app_id" translatable="false">1:738323569654:android:5a2b79a8003b16f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCdpz2hAfGvKrst3ph2ihyfQjGEaee_1EE</string>
+    <string name="google_storage_bucket" translatable="false">geotaggingphotoapp.appspot.com</string>
+    <string name="project_id" translatable="false">geotaggingphotoapp</string>
+</resources>
