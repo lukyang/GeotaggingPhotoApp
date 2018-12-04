@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Slider } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Image, ImageBackground } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 
 const flashModeOrder = {
@@ -9,17 +9,9 @@ const flashModeOrder = {
   torch: 'off',
 };
 
-const wbOrder = {
-  auto: 'sunny',
-  sunny: 'cloudy',
-  cloudy: 'shadow',
-  shadow: 'fluorescent',
-  fluorescent: 'incandescent',
-  incandescent: 'auto',
-};
-
 export default class Camera extends React.Component {
   state = {
+    path: null,
     flash: 'off',
     zoom: 0,
     autoFocus: 'on',
@@ -70,11 +62,14 @@ export default class Camera extends React.Component {
     });
   }
 
-  takePicture = async function() {
-    if (this.camera) {
-      this.camera.takePictureAsync().then(data => {
-        console.log('data: ', data);
-      });
+  takePicture = async () => {
+    try {
+      const data = await this.camera.takePictureAsync();
+      this.setState({ path: data.uri });
+      // this.props.updateImage(data.uri);
+      // console.log('Path to image: ' + data.uri);
+    } catch (err) {
+      console.log('err: ', err);
     }
   };
 
@@ -122,10 +117,38 @@ export default class Camera extends React.Component {
         </View>
       </RNCamera>
     );
+  };
+
+  renderImage() {
+    return (
+      <View>
+        <ImageBackground
+          source={{ uri: this.state.path }}
+          style={styles.preview}
+        />
+        <View
+          style={styles.buttonContainer}
+        >
+          <TouchableOpacity
+          style={ styles.XButton }
+          onPress={() => this.setState({ path: null })}
+          >
+          </TouchableOpacity>
+        </View>
+        <View
+          style={styles.buttonContainer}
+        >
+          <TouchableOpacity
+          style={ styles.checkButton }
+          >
+          </TouchableOpacity>
+        </View>
+      </View>
+    )
   }
 
   render() {
-    return <View style={styles.container}>{this.renderCamera()}</View>;
+    return <View style={styles.container}>{this.state.path ? this.renderImage() : this.renderCamera()}</View>;
   }
 }
 
@@ -183,7 +206,28 @@ const styles = StyleSheet.create({
     borderColor: 'white',
     borderWidth: 5,
   },
+  checkButton: {
+    width: 60,  
+    height: 60,   
+    borderRadius: 30,            
+    backgroundColor: '#ffffff',                                        
+  },
+  XButton: {
+    width: 60,  
+    height: 60,   
+    borderRadius: 30,            
+    backgroundColor: '#ffffff',
+  },
   row: {
     flexDirection: 'row',
+  },
+  preview: {
+    flex: 1,
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width
+  },
+  buttonContainer: {
+    flex: 1,
+    bottom: 25,
   },
 });
