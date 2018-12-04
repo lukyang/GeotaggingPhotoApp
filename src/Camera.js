@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Image, ImageBackground } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import Icon from 'react-native-vector-icons/AntDesign';
 
 const flashModeOrder = {
   off: 'on',
@@ -133,14 +134,12 @@ export default class Camera extends React.Component {
           style={ styles.XButton }
           onPress={() => this.setState({ path: null })}
           >
+            <Icon name="close" size={30} color="#009688" style={styles.checkandXicon}/>
           </TouchableOpacity>
-        </View>
-        <View
-          style={styles.buttonContainer}
-        >
           <TouchableOpacity
           style={ styles.checkButton }
           >
+            <Icon name="check" size={30} color="#009688" style={styles.checkandXicon}/>
           </TouchableOpacity>
         </View>
       </View>
@@ -224,10 +223,18 @@ const styles = StyleSheet.create({
   preview: {
     flex: 1,
     height: Dimensions.get('window').height,
-    width: Dimensions.get('window').width
+    width: Dimensions.get('window').width,
   },
   buttonContainer: {
     flex: 1,
-    bottom: 25,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    top: 500
   },
+  checkandXicon: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingLeft: 15,
+    paddingTop: 15,
+  }
 });

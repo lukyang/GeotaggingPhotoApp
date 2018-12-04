@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, StatusBar } from 'react-native';
 import Mapbox from '@mapbox/react-native-mapbox-gl';
 import { PermissionsAndroid } from 'react-native';
 import {Navigation} from 'react-native-navigation';
