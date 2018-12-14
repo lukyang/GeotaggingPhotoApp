@@ -3,6 +3,8 @@ package com.luke.geotaggingphotoapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnfs.RNFSPackage;
+import io.invertase.firebase.RNFirebasePackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -20,6 +22,8 @@ import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 import io.invertase.firebase.storage.RNFirebaseStoragePackage;
 import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
+import io.invertase.firebase.functions.RNFirebaseFunctionsPackage;
+import io.invertase.firebase.database.RNFirebaseDatabasePackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -47,13 +51,16 @@ public class MainApplication extends NavigationApplication {
           // No need to add RnnPackage and MainReactPackage
           return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new RNFSPackage(),
             new VectorIconsPackage(),
-            new RCTMGLPackage(),
-            new RNCameraPackage(),
             new RNFirebasePackage(),
+            new RNCameraPackage(),
+            new RCTMGLPackage(),
             new RNFirebaseAuthPackage(),
             new RNFirebaseStoragePackage(),
-            new RNFirebaseCrashlyticsPackage()
+            new RNFirebaseCrashlyticsPackage(),
+            new RNFirebaseFunctionsPackage(),
+            new RNFirebaseDatabasePackage()
           );
       }
     

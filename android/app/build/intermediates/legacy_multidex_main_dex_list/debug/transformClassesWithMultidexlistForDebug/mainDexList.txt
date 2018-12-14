@@ -247,6 +247,15 @@ com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
 com/google/firebase/auth/ActionCodeResult$Operation.class
 com/google/firebase/auth/FirebaseAuth$AuthStateListener.class
 com/google/firebase/auth/FirebaseAuth$IdTokenListener.class
+com/google/firebase/database/ChildEventListener.class
+com/google/firebase/database/Exclude.class
+com/google/firebase/database/IgnoreExtraProperties.class
+com/google/firebase/database/PropertyName.class
+com/google/firebase/database/ThrowOnExtraProperties.class
+com/google/firebase/database/Transaction$Handler.class
+com/google/firebase/database/ValueEventListener.class
+com/google/firebase/database/annotations/NotNull.class
+com/google/firebase/database/annotations/Nullable.class
 com/google/firebase/storage/StorageException$ErrorCode.class
 com/google/gson/annotations/Expose.class
 com/google/gson/annotations/JsonAdapter.class
@@ -305,6 +314,7 @@ com/reactnativenavigation/react/BundleDownloadListenerProvider.class
 com/reactnativenavigation/react/NavigationReactNativeHost.class
 com/reactnativenavigation/react/ReactGateway.class
 com/reactnativenavigation/viewcontrollers/externalcomponent/ExternalComponentCreator.class
+com/rnfs/RNFSPackage.class
 io/fabric/sdk/android/services/concurrency/DependsOn.class
 io/invertase/firebase/RNFirebasePackage.class
 io/invertase/firebase/auth/RNFirebaseAuth$1.class
@@ -339,6 +349,7 @@ io/invertase/firebase/auth/RNFirebaseAuth$9.class
 io/invertase/firebase/auth/RNFirebaseAuthPackage.class
 io/invertase/firebase/config/RNFirebaseRemoteConfig$1.class
 io/invertase/firebase/database/RNFirebaseDatabase$1$1.class
+io/invertase/firebase/database/RNFirebaseDatabasePackage.class
 io/invertase/firebase/database/RNFirebaseDatabaseReference$2.class
 io/invertase/firebase/database/RNFirebaseDatabaseReference$3.class
 io/invertase/firebase/database/RNFirebaseDatabaseReference$4.class
@@ -355,6 +366,7 @@ io/invertase/firebase/firestore/RNFirebaseFirestoreDocumentReference$3.class
 io/invertase/firebase/firestore/RNFirebaseFirestoreDocumentReference$5.class
 io/invertase/firebase/firestore/RNFirebaseFirestoreDocumentReference$6.class
 io/invertase/firebase/functions/RNFirebaseFunctions$1.class
+io/invertase/firebase/functions/RNFirebaseFunctionsPackage.class
 io/invertase/firebase/invites/RNFirebaseInvites$1.class
 io/invertase/firebase/links/RNFirebaseLinks$1.class
 io/invertase/firebase/links/RNFirebaseLinks$2.class

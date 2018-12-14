@@ -1,7 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground, setTimeout} from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import Icon from 'react-native-vector-icons/AntDesign';
+import firebase from 'react-native-firebase';
+import {Navigation} from 'react-native-navigation';
+import RNFS from 'react-native-fs';
 
 const flashModeOrder = {
   off: 'on',
@@ -13,6 +16,7 @@ const flashModeOrder = {
 export default class Camera extends React.Component {
   state = {
     path: null,
+    uploadPath: null,
     flash: 'off',
     zoom: 0,
     autoFocus: 'on',
@@ -63,15 +67,45 @@ export default class Camera extends React.Component {
     });
   }
 
+  returnToMap = () => {
+    Navigation.push(this.props.componentId, {
+      component: {
+        name: 'Map',
+      }
+    })
+  };
+
   takePicture = async () => {
     try {
-      const data = await this.camera.takePictureAsync();
+      const options = { quality: 0.5, base64: true };
+      const data = await this.camera.takePictureAsync(options);
       this.setState({ path: data.uri });
-      // this.props.updateImage(data.uri);
-      // console.log('Path to image: ' + data.uri);
+      this.setState({ uploadPath: data.uri });
+      console.log('Path to image: ' + this.state.path);
     } catch (err) {
       console.log('err: ', err);
     }
+  };
+
+  uploadPicture = async () => {
+    const DateandTime = new Date().getTime();
+    firebase
+    .storage()
+    .ref("UserPhotos/" + "IMG" + DateandTime + ".jpg")
+    .putFile(this.state.uploadPath)
+    .then(success => {
+      RNFS.unlink(this.state.uploadPath);
+      console.log("Firebase profile photo uploaded successfully")
+    })
+    .catch(error => {
+      console.log("Firebase profile upload failed: " + error)
+    })
+  };
+
+  checkButtonFuntion = async () => {
+    this.returnToMap();
+    this.setState({ path: null })
+    this.uploadPicture();
   };
 
   renderCamera() {
@@ -132,14 +166,19 @@ export default class Camera extends React.Component {
         >
           <TouchableOpacity
           style={ styles.XButton }
-          onPress={() => this.setState({ path: null })}
+          onPress={
+            () => {
+              RNFS.unlink(this.state.path);
+              this.setState({ path: null })
+          }}
           >
-            <Icon name="close" size={30} color="#009688" style={styles.checkandXicon}/>
+            <Icon name="close" size={30} color="#fff" style={styles.checkandXicon}/>
           </TouchableOpacity>
           <TouchableOpacity
           style={ styles.checkButton }
+          onPress={this.checkButtonFuntion.bind(this)}
           >
-            <Icon name="check" size={30} color="#009688" style={styles.checkandXicon}/>
+            <Icon name="check" size={30} color="#fff" style={styles.checkandXicon}/>
           </TouchableOpacity>
         </View>
       </View>
@@ -159,11 +198,6 @@ const styles = StyleSheet.create({
   },
   navigation: {
     flex: 1,
-  },
-  gallery: {
-    flex: 1,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
   },
   flipButton: {
     flex: 0.3,
@@ -209,13 +243,13 @@ const styles = StyleSheet.create({
     width: 60,  
     height: 60,   
     borderRadius: 30,            
-    backgroundColor: '#ffffff',                                        
+    backgroundColor: '#009688',                                        
   },
   XButton: {
     width: 60,  
     height: 60,   
     borderRadius: 30,            
-    backgroundColor: '#ffffff',
+    backgroundColor: '#009688',
   },
   row: {
     flexDirection: 'row',
@@ -229,7 +263,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-around',
-    top: 500
+    bottom: -500,
   },
   checkandXicon: {
     alignItems: 'center',

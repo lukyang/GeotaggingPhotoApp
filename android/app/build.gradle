@@ -156,6 +156,7 @@ dependencies {
     
     implementation project(':react-native-navigation')
     implementation project(':react-native-vector-icons')
+    implementation project(':react-native-fs')
     
 
     implementation (project(':mapbox-react-native-mapbox-gl')) {
@@ -179,6 +180,8 @@ dependencies {
     implementation "com.google.firebase:firebase-core:16.0.4"
     implementation "com.google.firebase:firebase-auth:16.0.5"
     implementation "com.google.firebase:firebase-storage:16.0.4"
+    implementation "com.google.firebase:firebase-functions:16.1.2"
+    implementation "com.google.firebase:firebase-database:16.0.4"
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
         transitive = true
     }
