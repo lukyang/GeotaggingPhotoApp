@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Image } from 'react-native';
 import Mapbox from '@mapbox/react-native-mapbox-gl';
 import { PermissionsAndroid } from 'react-native';
 import {Navigation} from 'react-native-navigation';
@@ -29,6 +29,17 @@ async function requestLocationPermission() {
 requestLocationPermission();
 
 export default class Map extends Component {
+  renderAnnotations() {
+    return (
+      <Mapbox.PointAnnotation
+        key='pointAnnotation'
+        id='pointAnnotation'
+        coordinate={[123.885, 10.315]}>
+        <Image source={{uri: "https://images.unsplash.com/photo-1535498730771-e735b998cd64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"}} style={{width: 36, height: 64}}/>
+      </Mapbox.PointAnnotation>
+    )
+  };
+  
   render() {
     return (
       <View style={styles.container}>
@@ -38,6 +49,7 @@ export default class Map extends Component {
             centerCoordinate={[123.885, 10.315]}
             showUserLocation={true}
             style={styles.container}>
+            {this.renderAnnotations()}
         </Mapbox.MapView>
         <TouchableOpacity
           style={styles.button}
@@ -74,5 +86,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingLeft: 15,
     paddingTop: 14,
+  },
+  annotationContainer: {
+    width: 30,
+    height: 30,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    borderRadius: 15,
+  },
+  annotationFill: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: 'orange',
+    transform: [{ scale: 0.6 }],
   }
 })

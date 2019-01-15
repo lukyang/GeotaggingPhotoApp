@@ -24,6 +24,7 @@ import io.invertase.firebase.storage.RNFirebaseStoragePackage;
 import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
 import io.invertase.firebase.functions.RNFirebaseFunctionsPackage;
 import io.invertase.firebase.database.RNFirebaseDatabasePackage;
+import io.invertase.firebase.firestore.RNFirebaseFirestorePackage; 
 
 import java.util.Arrays;
 import java.util.List;
@@ -60,7 +61,8 @@ public class MainApplication extends NavigationApplication {
             new RNFirebaseStoragePackage(),
             new RNFirebaseCrashlyticsPackage(),
             new RNFirebaseFunctionsPackage(),
-            new RNFirebaseDatabasePackage()
+            new RNFirebaseDatabasePackage(),
+            new RNFirebaseFirestorePackage()
           );
       }
     

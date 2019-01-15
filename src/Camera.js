@@ -32,9 +32,10 @@ export default class Camera extends React.Component {
     recordOptions: {
       mute: false,
       maxDuration: 5,
-      quality: RNCamera.Constants.VideoQuality["288p"],
+      quality: RNCamera.Constants.VideoQuality["480p"],
     },
-    isRecording: false
+    isRecording: false,
+    geolocation: null,
   };
 
   getRatios = async function() {
@@ -75,12 +76,26 @@ export default class Camera extends React.Component {
     })
   };
 
+  findCoordinates = async () => {
+    navigator.geolocation.getCurrentPosition(
+      position => {
+        this.setState({ geolocation: position });
+        console.log(this.state.geolocation)
+      },
+      error => {
+        console.log(error);
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 10000, }
+    );
+  };
+
   takePicture = async () => {
     try {
-      const options = { quality: 0.5, base64: true };
+      const options = { quality: 0.3, base64: true, fixOrientation: true};
       const data = await this.camera.takePictureAsync(options);
       this.setState({ path: data.uri });
       this.setState({ uploadPath: data.uri });
+      this.findCoordinates();
       console.log('Path to image: ' + this.state.path);
     } catch (err) {
       console.log('err: ', err);
@@ -95,18 +110,34 @@ export default class Camera extends React.Component {
     .putFile(this.state.uploadPath)
     .then(success => {
       RNFS.unlink(this.state.uploadPath);
-      console.log("Firebase profile photo uploaded successfully")
+      console.log("Photo uploaded successfully");
     })
     .catch(error => {
-      console.log("Firebase profile upload failed: " + error)
+      console.log("Storage upload failed: " + error);
+    });
+    firebase.firestore().collection("Images").add({
+      id:  "IMG" + DateandTime,
+      path: "UserPhotos/" + "IMG" + DateandTime + ".jpg",
+      latitude: this.state.geolocation.coords.latitude,
+      longitude: this.state.geolocation.coords.longitude,
     })
+    .then(success => {
+      console.log("Firebase database uploaded successfully");
+    })
+    .catch(error => {
+      console.log("Database upload failed: " + error);
+    });
   };
 
   checkButtonFuntion = async () => {
     this.returnToMap();
-    this.setState({ path: null })
+    this.setState({ path: null });
     this.uploadPicture();
   };
+
+  componentDidMount () {
+    this.findCoordinates()
+  }
 
   renderCamera() {
     return (
