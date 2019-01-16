@@ -85,35 +85,35 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int fab_size_mini = 0x7f09009d;
-        public static final int fab_size_normal = 0x7f09009e;
-        public static final int labels_text_size = 0x7f0900ac;
+        public static final int fab_size_mini = 0x7f0a009d;
+        public static final int fab_size_normal = 0x7f0a009e;
+        public static final int labels_text_size = 0x7f0a00ac;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int fab_add = 0x7f02006e;
+        public static final int fab_add = 0x7f020070;
     }
     public static final class id {
         private id() {}
 
-        public static final int down = 0x7f0f0058;
-        public static final int end = 0x7f0f0048;
-        public static final int fab_label = 0x7f0f0006;
-        public static final int left = 0x7f0f004a;
-        public static final int marquee = 0x7f0f0056;
-        public static final int middle = 0x7f0f0057;
-        public static final int mini = 0x7f0f0055;
-        public static final int none = 0x7f0f002b;
-        public static final int normal = 0x7f0f0027;
-        public static final int right = 0x7f0f004b;
-        public static final int start = 0x7f0f004c;
-        public static final int up = 0x7f0f0022;
+        public static final int down = 0x7f100059;
+        public static final int end = 0x7f100049;
+        public static final int fab_label = 0x7f100007;
+        public static final int left = 0x7f10004b;
+        public static final int marquee = 0x7f100057;
+        public static final int middle = 0x7f100058;
+        public static final int mini = 0x7f100056;
+        public static final int none = 0x7f10002c;
+        public static final int normal = 0x7f100028;
+        public static final int right = 0x7f10004c;
+        public static final int start = 0x7f10004d;
+        public static final int up = 0x7f100023;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] FloatingActionButton = { 0x7f010026, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102, 0x7f0101cf, 0x7f0101d0 };
+        public static final int[] FloatingActionButton = { 0x7f010026, 0x7f0100e9, 0x7f0100ea, 0x7f0100eb, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102, 0x7f0101e6, 0x7f0101e7 };
         public static final int FloatingActionButton_elevation = 0;
         public static final int FloatingActionButton_fab_colorNormal = 1;
         public static final int FloatingActionButton_fab_colorPressed = 2;

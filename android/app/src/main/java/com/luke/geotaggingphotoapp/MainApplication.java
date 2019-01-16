@@ -14,7 +14,7 @@ import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.reactnativenavigation.react.ReactGateway;
 
-import com.mapbox.rctmgl.RCTMGLPackage;
+import com.airbnb.android.react.maps.MapsPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -56,13 +56,13 @@ public class MainApplication extends NavigationApplication {
             new VectorIconsPackage(),
             new RNFirebasePackage(),
             new RNCameraPackage(),
-            new RCTMGLPackage(),
             new RNFirebaseAuthPackage(),
             new RNFirebaseStoragePackage(),
             new RNFirebaseCrashlyticsPackage(),
             new RNFirebaseFunctionsPackage(),
             new RNFirebaseDatabasePackage(),
-            new RNFirebaseFirestorePackage()
+            new RNFirebaseFirestorePackage(),
+            new MapsPackage()
           );
       }
     

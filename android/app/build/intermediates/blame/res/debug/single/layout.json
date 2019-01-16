@@ -32,6 +32,10 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/layout/design_navigation_item.xml"
     },
     {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/amu_text_bubble.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/res/layout/amu_text_bubble.xml"
+    },
+    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/layout/abc_action_bar_up_container.xml"
     },
@@ -72,6 +76,10 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/amu_webview.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/res/layout/amu_webview.xml"
+    },
+    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/abc_tooltip.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/layout/abc_tooltip.xml"
     },
@@ -106,6 +114,10 @@
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/redbox_item_frame.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/amu_info_window.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/res/layout/amu_info_window.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",

@@ -149,6 +149,7 @@ android/support/v7/widget/RecyclerView$ItemAnimator$AdapterChanges.class
 android/support/v7/widget/RecyclerView$Orientation.class
 android/support/v7/widget/RecyclerView$State$LayoutState.class
 android/support/v7/widget/ViewBoundsCheck$ViewBounds.class
+com/airbnb/android/react/maps/MapsPackage.class
 com/aurelhubert/ahbottomnavigation/VerticalScrollingBehavior$ScrollDirection.class
 com/drew/lang/annotations/NotNull.class
 com/drew/lang/annotations/Nullable.class

@@ -8,6 +8,10 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/amu_bubble_mask.9.png",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/res/drawable-xhdpi-v4/amu_bubble_mask.9.png"
+    },
+    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mapbox_info_icon_default.png",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable-xhdpi-v4/mapbox_info_icon_default.png"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/amu_bubble_shadow.9.png",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/res/drawable-xhdpi-v4/amu_bubble_shadow.9.png"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
