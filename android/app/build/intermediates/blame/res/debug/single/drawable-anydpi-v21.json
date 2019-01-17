@@ -10,13 +10,5 @@
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/mapbox_info_icon_selected.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable-anydpi-v21/mapbox_info_icon_selected.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/mapbox_info_icon_default.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable-anydpi-v21/mapbox_info_icon_default.xml"
     }
 ]

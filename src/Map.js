@@ -4,6 +4,7 @@ import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import { PermissionsAndroid } from 'react-native';
 import {Navigation} from 'react-native-navigation';
 import Icon from 'react-native-vector-icons/Feather';
+import firebase from 'react-native-firebase';
 
 async function requestLocationPermission() {
   try {
@@ -27,6 +28,30 @@ async function requestLocationPermission() {
 requestLocationPermission();
 
 export default class Map extends Component {
+  static options(passProps) {
+    return {
+      statusBar: {
+        backgroundColor: '#00766c',
+      },
+      topBar: {
+        title: {
+          text: 'Map',
+          color: 'white',
+          fontSize: 20,
+        },
+        backButton: {
+          visible: false
+        },
+        background: {
+          color: '#009688',
+        },
+      },
+      sideMenu: {
+        left: {
+        },
+      },
+    }
+  };
   render() {
     return (
       <View style={styles.container}>
@@ -39,6 +64,9 @@ export default class Map extends Component {
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
           }}
+          showsTraffic={true}
+          showsUserLocation={true}
+          showsMyLocationButton={true}
         />
         <TouchableOpacity
           style={styles.button}

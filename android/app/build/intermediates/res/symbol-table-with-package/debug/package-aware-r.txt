@@ -32,8 +32,6 @@ anim slide_up
 animator design_appbar_state_list_animator
 array debug_colors
 attr accentColor
-attr accuracyAlpha
-attr accuracyColor
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -90,14 +88,12 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
-attr backgroundDrawable
 attr backgroundImage
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
 attr barLength
-attr bearingDrawable
 attr behavior_autoHide
 attr behavior_hideable
 attr behavior_overlapTop
@@ -237,7 +233,6 @@ attr fontProviderPackage
 attr fontProviderQuery
 attr fontStyle
 attr fontWeight
-attr foregroundDrawable
 attr foregroundInsidePadding
 attr gapBetweenBars
 attr goIcon
@@ -298,67 +293,6 @@ attr liteMode
 attr logo
 attr logoDescription
 attr mapType
-attr mapbox_apiBaseUrl
-attr mapbox_bl_arrowDirection
-attr mapbox_bl_arrowHeight
-attr mapbox_bl_arrowPosition
-attr mapbox_bl_arrowWidth
-attr mapbox_bl_bubbleColor
-attr mapbox_bl_cornersRadius
-attr mapbox_bl_strokeColor
-attr mapbox_bl_strokeWidth
-attr mapbox_cameraBearing
-attr mapbox_cameraTargetLat
-attr mapbox_cameraTargetLng
-attr mapbox_cameraTilt
-attr mapbox_cameraZoom
-attr mapbox_cameraZoomMax
-attr mapbox_cameraZoomMin
-attr mapbox_enableTilePrefetch
-attr mapbox_enableZMediaOverlay
-attr mapbox_localIdeographFontFamily
-attr mapbox_myLocation
-attr mapbox_myLocationAccuracyAlpha
-attr mapbox_myLocationAccuracyThreshold
-attr mapbox_myLocationAccuracyTintColor
-attr mapbox_myLocationBackgroundDrawable
-attr mapbox_myLocationBackgroundMarginBottom
-attr mapbox_myLocationBackgroundMarginLeft
-attr mapbox_myLocationBackgroundMarginRight
-attr mapbox_myLocationBackgroundMarginTop
-attr mapbox_myLocationBackgroundTintColor
-attr mapbox_myLocationBearingDrawable
-attr mapbox_myLocationDrawable
-attr mapbox_myLocationTintColor
-attr mapbox_renderTextureMode
-attr mapbox_styleUrl
-attr mapbox_uiAttribution
-attr mapbox_uiAttributionGravity
-attr mapbox_uiAttributionMarginBottom
-attr mapbox_uiAttributionMarginLeft
-attr mapbox_uiAttributionMarginRight
-attr mapbox_uiAttributionMarginTop
-attr mapbox_uiAttributionTintColor
-attr mapbox_uiCompass
-attr mapbox_uiCompassDrawable
-attr mapbox_uiCompassFadeFacingNorth
-attr mapbox_uiCompassGravity
-attr mapbox_uiCompassMarginBottom
-attr mapbox_uiCompassMarginLeft
-attr mapbox_uiCompassMarginRight
-attr mapbox_uiCompassMarginTop
-attr mapbox_uiDoubleTapGestures
-attr mapbox_uiLogo
-attr mapbox_uiLogoGravity
-attr mapbox_uiLogoMarginBottom
-attr mapbox_uiLogoMarginLeft
-attr mapbox_uiLogoMarginRight
-attr mapbox_uiLogoMarginTop
-attr mapbox_uiRotateGestures
-attr mapbox_uiScrollGestures
-attr mapbox_uiTiltGestures
-attr mapbox_uiZoomControls
-attr mapbox_uiZoomGestures
 attr maxActionInlineWidth
 attr maxButtonHeight
 attr measureWithLargestChild
@@ -404,7 +338,6 @@ attr menu_shadowYOffset
 attr menu_showShadow
 attr multiChoiceItemLayout
 attr navigationContentDescription
-attr navigationDrawable
 attr navigationIcon
 attr navigationMode
 attr numericModifiers
@@ -665,11 +598,6 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color mapbox_blue
-color mapbox_gray
-color mapbox_gray_dark
-color mapbox_plugin_location_layer_blue
-color mapbox_plugin_location_layer_gray
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -876,12 +804,6 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen labels_text_size
-dimen mapbox_eight_dp
-dimen mapbox_four_dp
-dimen mapbox_infowindow_margin
-dimen mapbox_infowindow_tipview_width
-dimen mapbox_my_locationview_outer_circle
-dimen mapbox_ninety_two_dp
 dimen margin
 dimen notification_action_icon_size
 dimen notification_action_text_size
@@ -1029,23 +951,6 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24dp
 drawable item_background
-drawable mapbox_compass_icon
-drawable mapbox_info_bg_selector
-drawable mapbox_info_icon_default
-drawable mapbox_info_icon_selected
-drawable mapbox_logo_helmet
-drawable mapbox_logo_icon
-drawable mapbox_marker_icon_default
-drawable mapbox_markerview_icon_default
-drawable mapbox_mylocation_bg_shape
-drawable mapbox_mylocation_icon_bearing
-drawable mapbox_mylocation_icon_default
-drawable mapbox_popup_window_transparent
-drawable mapbox_rounded_corner
-drawable mapbox_user_bearing_icon
-drawable mapbox_user_icon
-drawable mapbox_user_puck_icon
-drawable mapbox_user_stroke_icon
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_background
@@ -1097,11 +1002,7 @@ id alertTitle
 id all
 id always
 id amu_text
-id annotation_img
-id annotation_layout
-id annotation_view_container
 id async
-id attributionView
 id auto
 id back
 id beginning
@@ -1127,7 +1028,6 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id compassView
 id container
 id contentPanel
 id coordinator
@@ -1176,8 +1076,6 @@ id icon_only
 id ifRoom
 id image
 id info
-id infowindow_description
-id infowindow_title
 id italic
 id item_touch_helper_previous_elevation
 id largeLabel
@@ -1187,8 +1085,6 @@ id line1
 id line3
 id listMode
 id list_item
-id logoView
-id markerViewContainer
 id marquee
 id masked
 id media_actions
@@ -1296,7 +1192,6 @@ id transition_transform
 id uniform
 id up
 id useLogo
-id userLocationView
 id view_offset_helper
 id view_tag_instance_handle
 id view_tag_native_id
@@ -1347,7 +1242,6 @@ layout abc_tooltip
 layout amu_info_window
 layout amu_text_bubble
 layout amu_webview
-layout annotation
 layout bottom_navigation_item
 layout bottom_navigation_small_item
 layout design_bottom_navigation_item
@@ -1366,10 +1260,6 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dev_loading_view
 layout fps_view
-layout mapbox_attribution_list_item
-layout mapbox_infowindow_content
-layout mapbox_mapview_internal
-layout mapbox_view_image_marker
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1449,7 +1339,6 @@ string adjustable_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
-string cancel
 string catalyst_copy_button
 string catalyst_debugjs
 string catalyst_debugjs_nuclide
@@ -1506,29 +1395,6 @@ string google_storage_bucket
 string image_button_description
 string image_description
 string link_description
-string mapbox_attributionErrorNoBrowser
-string mapbox_attributionTelemetryMessage
-string mapbox_attributionTelemetryNegative
-string mapbox_attributionTelemetryNeutral
-string mapbox_attributionTelemetryPositive
-string mapbox_attributionTelemetryTitle
-string mapbox_attributionsDialogTitle
-string mapbox_attributionsIconContentDescription
-string mapbox_compassContentDescription
-string mapbox_mapActionDescription
-string mapbox_myLocationViewContentDescription
-string mapbox_offline_error_region_definition_invalid
-string mapbox_style_dark
-string mapbox_style_light
-string mapbox_style_mapbox_streets
-string mapbox_style_outdoors
-string mapbox_style_satellite
-string mapbox_style_satellite_streets
-string mapbox_style_traffic_day
-string mapbox_style_traffic_night
-string mapbox_telemetryLink
-string mapbox_telemetrySettings
-string ok
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1537,7 +1403,6 @@ string path_password_strike_through
 string project_id
 string search_description
 string search_menu_title
-string settings_alert_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1711,7 +1576,6 @@ style ClockTimePickerDialog
 style ClockTimePickerStyle
 style DialogAnimationFade
 style DialogAnimationSlide
-style LocationLayer
 style Modal
 style Platform_AppCompat
 style Platform_AppCompat_Light
@@ -1983,7 +1847,6 @@ styleable LinearLayoutCompat android_baselineAligned android_baselineAlignedChil
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_height android_layout_weight android_layout_width
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable LocationLayer accuracyAlpha accuracyColor backgroundDrawable bearingDrawable foregroundDrawable navigationDrawable
 styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MenuGroup android_checkableBehavior android_enabled android_id android_menuCategory android_orderInCategory android_visible
 styleable MenuItem actionLayout actionProviderClass actionViewClass alphabeticModifiers android_alphabeticShortcut android_checkable android_checked android_enabled android_icon android_id android_menuCategory android_numericShortcut android_onClick android_orderInCategory android_title android_titleCondensed android_visible contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
@@ -2009,6 +1872,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_focusable android_theme paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_inflatedId android_layout
-styleable mapbox_BubbleLayout mapbox_bl_arrowDirection mapbox_bl_arrowHeight mapbox_bl_arrowPosition mapbox_bl_arrowWidth mapbox_bl_bubbleColor mapbox_bl_cornersRadius mapbox_bl_strokeColor mapbox_bl_strokeWidth
-styleable mapbox_MapView mapbox_apiBaseUrl mapbox_cameraBearing mapbox_cameraTargetLat mapbox_cameraTargetLng mapbox_cameraTilt mapbox_cameraZoom mapbox_cameraZoomMax mapbox_cameraZoomMin mapbox_enableTilePrefetch mapbox_enableZMediaOverlay mapbox_localIdeographFontFamily mapbox_myLocation mapbox_myLocationAccuracyAlpha mapbox_myLocationAccuracyThreshold mapbox_myLocationAccuracyTintColor mapbox_myLocationBackgroundDrawable mapbox_myLocationBackgroundMarginBottom mapbox_myLocationBackgroundMarginLeft mapbox_myLocationBackgroundMarginRight mapbox_myLocationBackgroundMarginTop mapbox_myLocationBackgroundTintColor mapbox_myLocationBearingDrawable mapbox_myLocationDrawable mapbox_myLocationTintColor mapbox_renderTextureMode mapbox_styleUrl mapbox_uiAttribution mapbox_uiAttributionGravity mapbox_uiAttributionMarginBottom mapbox_uiAttributionMarginLeft mapbox_uiAttributionMarginRight mapbox_uiAttributionMarginTop mapbox_uiAttributionTintColor mapbox_uiCompass mapbox_uiCompassDrawable mapbox_uiCompassFadeFacingNorth mapbox_uiCompassGravity mapbox_uiCompassMarginBottom mapbox_uiCompassMarginLeft mapbox_uiCompassMarginRight mapbox_uiCompassMarginTop mapbox_uiDoubleTapGestures mapbox_uiLogo mapbox_uiLogoGravity mapbox_uiLogoMarginBottom mapbox_uiLogoMarginLeft mapbox_uiLogoMarginRight mapbox_uiLogoMarginTop mapbox_uiRotateGestures mapbox_uiScrollGestures mapbox_uiTiltGestures mapbox_uiZoomControls mapbox_uiZoomGestures
 xml preferences

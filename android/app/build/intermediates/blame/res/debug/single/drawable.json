@@ -56,10 +56,6 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1ad42cc73192bb71f959f34dc91f3cfd/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_rounded_corner.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable/mapbox_rounded_corner.xml"
-    },
-    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable/abc_dialog_material_background.xml"
     },
@@ -132,14 +128,6 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_user_bearing_icon.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/res/drawable/mapbox_user_bearing_icon.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_user_icon.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/res/drawable/mapbox_user_icon.xml"
-    },
-    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable/abc_btn_borderless_material.xml"
     },
@@ -200,14 +188,6 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1ad42cc73192bb71f959f34dc91f3cfd/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_popup_window_transparent.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable/mapbox_popup_window_transparent.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_mylocation_bg_shape.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable/mapbox_mylocation_bg_shape.xml"
-    },
-    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable/abc_textfield_search_material.xml"
     },
@@ -244,10 +224,6 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_info_bg_selector.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/res/drawable/mapbox_info_bg_selector.xml"
-    },
-    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1ad42cc73192bb71f959f34dc91f3cfd/res/drawable/common_google_signin_btn_text_dark.xml"
     },
@@ -260,16 +236,8 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_user_stroke_icon.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/res/drawable/mapbox_user_stroke_icon.xml"
-    },
-    {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/notification_background.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/res/drawable/notification_background.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/mapbox_user_puck_icon.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/res/drawable/mapbox_user_puck_icon.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/drawable/item_background.xml",

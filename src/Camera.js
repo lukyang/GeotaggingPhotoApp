@@ -14,6 +14,19 @@ const flashModeOrder = {
 };
 
 export default class Camera extends React.Component {
+  static options(passProps) {
+    return {
+      statusBar: {
+        backgroundColor: '#00766c',
+      },
+      topBar: {
+        visible: false,
+        drawBehind: true,
+        animate: false
+      }
+    };
+  };
+
   state = {
     path: null,
     uploadPath: null,
