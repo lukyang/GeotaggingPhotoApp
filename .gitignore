@@ -1,3 +1,5 @@
 /node_modules
+/FirebaseFunctions/functions/node_modules
+/FirebaseFunctions/functions/geotaggingphotoapp-firebase-adminsdk-lwiwp-d9a8c1d8af.json
 /android/app/google-services.json
 /.vscode

@@ -52,6 +52,35 @@ export default class Map extends Component {
       },
     }
   };
+
+  state = {
+    photoURLs: [],
+  }
+
+  getDownloadURL = async () => {
+    firebase
+    .firestore()
+    .collection('Images')
+    .get()
+    .then(doc => {
+      doc.docs.map((value) => {
+        firebase.storage().ref(value._data.path).getDownloadURL().then((downloadURL) => {
+          var donwloadURLs = [];
+          donwloadURLs.push(downloadURL);
+          this.state.photoURLs.push(donwloadURLs[0]);
+          return console.log(this.state.photoURLs)
+        })
+        .catch((error) => {
+          return console.log("Photo URL function error: " + error);
+        })
+      })
+    })
+  };
+  
+  componentDidMount () {
+    this.getDownloadURL();
+  };
+
   render() {
     return (
       <View style={styles.container}>

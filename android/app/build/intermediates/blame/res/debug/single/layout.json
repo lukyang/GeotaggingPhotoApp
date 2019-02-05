@@ -5,7 +5,7 @@
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/dev_loading_view.xml"
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
@@ -113,7 +113,7 @@
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/redbox_item_frame.xml"
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/amu_info_window.xml",
@@ -141,7 +141,7 @@
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/redbox_view.xml"
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/res/layout/redbox_view.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -201,7 +201,7 @@
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/redbox_item_title.xml"
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/f8a0f4388bc587a98d4ab88998efddab/res/layout/fps_view.xml"
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/res/layout/fps_view.xml"
     },
     {
         "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout/notification_action.xml",

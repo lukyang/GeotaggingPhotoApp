@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground, setTimeout} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import Icon from 'react-native-vector-icons/AntDesign';
 import firebase from 'react-native-firebase';
@@ -67,20 +67,7 @@ export default class Camera extends React.Component {
       flash: flashModeOrder[this.state.flash],
     });
   }
-
-  setRatio(ratio) {
-    this.setState({
-      ratio,
-    });
-  }
-
-
-  setFocusDepth(depth) {
-    this.setState({
-      depth,
-    });
-  }
-
+  
   returnToMap = () => {
     Navigation.push(this.props.componentId, {
       component: {
@@ -110,46 +97,68 @@ export default class Camera extends React.Component {
       this.setState({ uploadPath: data.uri });
       this.findCoordinates();
       console.log('Path to image: ' + this.state.path);
-    } catch (err) {
-      console.log('err: ', err);
+    } catch (error) {
+      console.log('Take Picture error: ' + error);
     }
   };
 
-  uploadPicture = async () => {
-    const DateandTime = new Date().getTime();
+  takePictureButton = async () => {
+    {this.state.path ? () => {
+      RNFS.unlink(this.state.path).then(this.takePicture())
+    } : this.takePicture()}
+  }
+
+  uploadPicture = async (DateandTime) => {
     firebase
     .storage()
     .ref("UserPhotos/" + "IMG" + DateandTime + ".jpg")
     .putFile(this.state.uploadPath)
     .then(success => {
       RNFS.unlink(this.state.uploadPath);
-      console.log("Photo uploaded successfully");
+      return console.log("Photo uploaded successfully");
     })
     .catch(error => {
       console.log("Storage upload failed: " + error);
     });
-    firebase.firestore().collection("Images").add({
+  };
+
+  databaseUpload = async (DateandTime) => {
+    firebase.firestore().collection("Images").doc("IMG" + DateandTime + ".jpg").set({
       id:  "IMG" + DateandTime,
       path: "UserPhotos/" + "IMG" + DateandTime + ".jpg",
       latitude: this.state.geolocation.coords.latitude,
       longitude: this.state.geolocation.coords.longitude,
+      downloadURL: null,
     })
     .then(success => {
-      console.log("Firebase database uploaded successfully");
+      return console.log("Firebase database uploaded successfully");
     })
     .catch(error => {
-      console.log("Database upload failed: " + error);
+      return console.log("Database upload failed: " + error);
+    });
+  }
+
+  checkButtonFuntion = async () => {
+    clearInterval(this.intervalID);
+    const DateandTime = new Date().getTime();
+    this.returnToMap();
+    this.setState({ path: null });
+    this.uploadPicture(DateandTime)
+    .then((success) => {
+      this.databaseUpload(DateandTime);
+      return console.log("Check Button Function Successful")
+    })
+    .catch((error) => {
+      return console.log("Check Button Function Error: " + error)
     });
   };
 
-  checkButtonFuntion = async () => {
-    this.returnToMap();
-    this.setState({ path: null });
-    this.uploadPicture();
+  componentDidMount () {
+    this.intervalID = setInterval(() => {this.findCoordinates()}, 1000);
   };
 
-  componentDidMount () {
-    this.findCoordinates()
+  componentWillUnmount () {
+    clearInterval(this.intervalID);
   }
 
   renderCamera() {
@@ -190,7 +199,7 @@ export default class Camera extends React.Component {
         >
           <TouchableOpacity
             style={ styles.picButton }
-            onPress={this.takePicture.bind(this)}
+            onPress={this.takePictureButton.bind(this)}
           >
           </TouchableOpacity>
         </View>
@@ -303,7 +312,7 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
   },
-  buttonContainer: {
+  buttonContainer: {                                         
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-around',
