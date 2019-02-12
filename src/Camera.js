@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ImageBackground } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -13,8 +13,8 @@ const flashModeOrder = {
   torch: 'off',
 };
 
-export default class Camera extends React.Component {
-  static options(passProps) {
+export default class Camera extends Component {
+  static options() {
     return {
       statusBar: {
         backgroundColor: '#00766c',
@@ -28,6 +28,7 @@ export default class Camera extends React.Component {
   };
 
   state = {
+    currentUser: null,
     path: null,
     uploadPath: null,
     flash: 'off',
@@ -127,8 +128,7 @@ export default class Camera extends React.Component {
       id:  "IMG" + DateandTime,
       path: "UserPhotos/" + "IMG" + DateandTime + ".jpg",
       latitude: this.state.geolocation.coords.latitude,
-      longitude: this.state.geolocation.coords.longitude,
-      downloadURL: null,
+      longitude: this.state.geolocation.coords.longitude
     })
     .then(success => {
       return console.log("Firebase database uploaded successfully");
@@ -153,12 +153,23 @@ export default class Camera extends React.Component {
     });
   };
 
+  componentWillMount () {
+    this.getLocationInterval = setInterval(() => {
+      this.findCoordinates()
+    }, 1000);
+    this.getLocationTimeoutID = setTimeout(() => {
+      clearInterval(this.getLocationInterval);
+    }, 10000)
+  }
+
   componentDidMount () {
-    this.intervalID = setInterval(() => {this.findCoordinates()}, 1000);
+    const { currentUser } = firebase.auth()
+    this.setState({ currentUser })
   };
 
   componentWillUnmount () {
-    clearInterval(this.intervalID);
+    clearInterval(this.getLocationInterval);
+    clearTimeout(this.getLocationTimeoutID);
   }
 
   renderCamera() {

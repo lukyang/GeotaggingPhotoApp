@@ -3,22 +3,32 @@ import {registerScreens} from './src/Screens';
 
 registerScreens();
 
+// Navigation.events().registerAppLaunchedListener(() => {
+//   Navigation.setRoot({
+//     root: {
+//       stack: {
+//         children: [
+//           {
+//             component: {
+//               name: "Camera"
+//             }
+//         },
+//           {
+//             component: {
+//             name: "Map"
+//           }
+//         }]
+//       }
+//     }
+//   });
+// });
+
 Navigation.events().registerAppLaunchedListener(() => {
   Navigation.setRoot({
     root: {
-      stack: {
-        children: [
-          {
-            component: {
-              name: "Camera"
-            }
-        },
-          {
-            component: {
-            name: "Map"
-          }
-        }]
+      component: {
+        name: 'Loading'
       }
-    }
+    },
   });
 });

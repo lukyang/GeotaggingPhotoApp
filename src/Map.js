@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, TouchableOpacity, Image } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import { PermissionsAndroid } from 'react-native';
 import {Navigation} from 'react-native-navigation';
 import Icon from 'react-native-vector-icons/Feather';
 import firebase from 'react-native-firebase';
+import Mapbox from '@mapbox/react-native-mapbox-gl';
+
+Mapbox.setAccessToken('pk.eyJ1IjoibHVreWFuZyIsImEiOiJjamwzazB5czEwMDM4M3BscnMzYXR5MXloIn0.AFqzEihgBGah3yk9ziLTvg');
 
 async function requestLocationPermission() {
   try {
@@ -28,7 +30,7 @@ async function requestLocationPermission() {
 requestLocationPermission();
 
 export default class Map extends Component {
-  static options(passProps) {
+  static options() {
     return {
       statusBar: {
         backgroundColor: '#00766c',
@@ -46,16 +48,14 @@ export default class Map extends Component {
           color: '#009688',
         },
       },
-      sideMenu: {
-        left: {
-        },
-      },
     }
   };
 
   state = {
-    photoURLs: [],
-  }
+    currentUser: null,
+    markers: [],
+    updateStatus: false,
+  };
 
   getDownloadURL = async () => {
     firebase
@@ -64,39 +64,79 @@ export default class Map extends Component {
     .get()
     .then(doc => {
       doc.docs.map((value) => {
-        firebase.storage().ref(value._data.path).getDownloadURL().then((downloadURL) => {
+        firebase
+        .storage()
+        .ref(value._data.path)
+        .getDownloadURL()
+        .then((downloadURL) => {
           var donwloadURLs = [];
           donwloadURLs.push(downloadURL);
-          this.state.photoURLs.push(donwloadURLs[0]);
-          return console.log(this.state.photoURLs)
+          this.state.markers.push({
+            id: value._data.id,
+            imagePath: donwloadURLs[0],
+            coordinate: {
+              latitude : value._data.latitude,
+              longitude: value._data.longitude
+            }
+          });
+          return console.log(this.state.markers)
         })
         .catch((error) => {
           return console.log("Photo URL function error: " + error);
-        })
+        });
       })
     })
   };
+
   
-  componentDidMount () {
+  componentWillMount () {
+    clearInterval(this.getLocationInterval);
     this.getDownloadURL();
+    this.intervalID = setInterval(() => {
+      if (this.state.updateStatus === true) {
+        this.setState({updateStatus: false});
+      } else {
+        this.setState({updateStatus: true});
+      }
+    }, 3000);
+    // this.timeoutID = setTimeout(() => {
+    //   clearInterval(this.intervalID);
+    // }, 10000)
   };
+
+  componentDidMount () {
+    const { currentUser } = firebase.auth()
+    this.setState({ currentUser })
+  }
+
+  componentWillUnmount () {
+    // clearTimeout(this.timeoutID);
+    clearInterval(this.intervalID);
+    this.setState({
+      updateStatus: false,
+      markers: []
+    })
+  }
 
   render() {
     return (
       <View style={styles.container}>
-        <MapView
-          provider={PROVIDER_GOOGLE}
-          style={styles.map}
-          initialRegion={{
-          latitude: 10.315,
-          longitude: 123.885,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-          }}
-          showsTraffic={true}
-          showsUserLocation={true}
-          showsMyLocationButton={true}
-        />
+        <Mapbox.MapView
+            zoomLevel={11}
+            centerCoordinate={[123.915, 10.315]}
+            style={styles.container}
+            showUserLocation={true}>
+            {this.state.markers.map((markers, index) => {
+              return (
+                <Mapbox.PointAnnotation
+                  key={index}
+                  id={markers.id}
+                  coordinate={[markers.coordinate.longitude, markers.coordinate.latitude]}>
+                  <Image source={{uri: markers.imagePath}}  style={{width: 63, height: 112}}/>
+                </Mapbox.PointAnnotation>
+              )
+            })}
+        </Mapbox.MapView>
         <TouchableOpacity
           style={styles.button}
             onPress={() => {
@@ -136,19 +176,4 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingTop: 14,
   },
-  annotationContainer: {
-    width: 30,
-    height: 30,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'white',
-    borderRadius: 15,
-  },
-  annotationFill: {
-    width: 30,
-    height: 30,
-    borderRadius: 15,
-    backgroundColor: 'orange',
-    transform: [{ scale: 0.6 }],
-  }
 })

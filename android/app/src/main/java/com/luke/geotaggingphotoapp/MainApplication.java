@@ -9,12 +9,12 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.mapbox.rctmgl.RCTMGLPackage;
 
 import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.reactnativenavigation.react.ReactGateway;
 
-import com.airbnb.android.react.maps.MapsPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -62,7 +62,7 @@ public class MainApplication extends NavigationApplication {
             new RNFirebaseFunctionsPackage(),
             new RNFirebaseDatabasePackage(),
             new RNFirebaseFirestorePackage(),
-            new MapsPackage()
+            new RCTMGLPackage()
           );
       }
     

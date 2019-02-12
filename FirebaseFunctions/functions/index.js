@@ -7,23 +7,27 @@ admin.initializeApp({
   databaseURL: "https://geotaggingphotoapp.firebaseio.com"
 });
 const functions = require('firebase-functions');
-const path = require('path');
 
-exports.makeDownloadURL = functions.storage.object().onFinalize((object) => {
-      // File and directory paths.
-  const filePath = object.name;
-  // Cloud Storage files.
-  // const bucket = admin.storage().bucket(object.bucket);
-  const fileDir = path.dirname(filePath);
-  const fileName = path.basename(filePath);
-  const bucket = admin.storage().bucket(object.bucket);
-  const file = bucket.file(fileName);
-  const downloadURL = functions.storage().ref(filePath).getDownloadURL()
-  // return file.getSignedUrl({
-  //   action: 'read',
-  //   expires: '03-09-2500'
-  // }).then(signedUrl => {
-  //   return console.log(signedUrl)
-  // });
-  return console.log(downloadURL)
-})
+'use strict';
+
+// Cut off time. Child nodes older than this will be deleted.
+const CUT_OFF_TIME = 2 * 60 * 60 * 1000; // 2 Hours in milliseconds.
+
+/**
+ * This database triggered function will check for child nodes that are older than the
+ * cut-off time. Each child needs to have a `timestamp` attribute.
+ */
+exports.deleteOldItems = functions.database.ref('/path/to/items/{pushId}').onWrite(async (change) => {
+  const ref = change.after.ref.parent; // reference to the parent
+  const now = Date.now();
+  const cutoff = now - CUT_OFF_TIME;
+  const oldItemsQuery = ref.orderByChild('timestamp').endAt(cutoff);
+  const snapshot = await oldItemsQuery.once('value');
+  // create a map with all children that need to be removed
+  const updates = {};
+  snapshot.forEach(child => {
+    updates[child.key] = null;
+  });
+  // execute all updates in one go and return the result to end the function
+  return ref.update(updates);
+});

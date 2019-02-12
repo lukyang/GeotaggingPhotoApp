@@ -9,15 +9,21 @@ MERGED from [com.android.support:multidex:1.0.2] /home/luke/.gradle/caches/trans
 MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:2:1-17:12
 MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:2:1-12:12
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:2:1-14:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization:0.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-localization-0.1.0.aar/04db23fddc8dfd2033317518431eda49/AndroidManifest.xml:2:1-10:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.3.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:2:1-31:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-2.2.9.aar/d0843f4ad55c68fae832150797c2104d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:2:1-34:12
 MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.5] /home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:27.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:exifinterface:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/d5987e3a67c6a13fcb6f9e71fc51d72d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/33cefbe49c141ac70b1ea7170c6464d2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-functions:16.1.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-functions-16.1.2.aar/b548c39d4e46dd8575d3af03338bf36f/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-database:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/0310190a0e856e9dbc31b56a7531a82e/AndroidManifest.xml:15:1-25:12
@@ -53,7 +59,6 @@ MERGED from [com.android.support:support-compat:27.1.1] /home/luke/.gradle/cache
 MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-18:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:2:1-19:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/83b4752ac56a2333ad6ae769038fe770/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a134f8b610cabcc4b2eb7d19e2561b71/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/857eecc5d47655e7835f9350308f7761/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/57b62d0d801e6e2794c9f54c586c353e/AndroidManifest.xml:2:1-9:12
@@ -61,7 +66,6 @@ MERGED from [com.facebook.soloader:soloader:0.5.1] /home/luke/.gradle/caches/tra
 MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/dd64dcd576e9dfe0f125466e549078aa/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r174650] /home/luke/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6f8e51b8d1602b816e0e2bcb42ab2ae4/AndroidManifest.xml:1:1-3:12
 MERGED from [com.github.clans:fab:1.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/AndroidManifest.xml:2:1-14:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/4bef2a032c3d8a5ca8034b5f3413fd7e/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/62a20909335bdfccb46e36135b165dce/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/e22baed41238b4c95199959987489d35/AndroidManifest.xml:2:1-11:12
@@ -70,11 +74,12 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.3] /home/luke/.gradle/cache
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/luke/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/e9ba7b362f75c7cac28e2798b25d57b5/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:22:1-33:12
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a0680231ca5b1309d0e73188de2e5fbb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/luke/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/365a20190c4fc8662ffa0ab7f4fbcd57/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/3889b30a94f693db2727f25e1a76d506/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a6b853f1cca0a943cec20a8fc9fca8a1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e6a731016bf4206d6299c8ea5e965c6f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:17:1-22:12
 INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -97,10 +102,12 @@ uses-permission#android.permission.INTERNET
 ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:24:5-67
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:12:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:12:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:21:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-functions:16.1.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-functions-16.1.2.aar/b548c39d4e46dd8575d3af03338bf36f/AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-functions:16.1.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-functions-16.1.2.aar/b548c39d4e46dd8575d3af03338bf36f/AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-database:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/0310190a0e856e9dbc31b56a7531a82e/AndroidManifest.xml:23:5-67
@@ -137,18 +144,22 @@ MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Nativ
 		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:5-78
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:5-81
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-81
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-81
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:5-77
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:22-75
 uses-permission#android.permission.CAMERA
@@ -173,14 +184,16 @@ application
 ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:15:5-37:19
 MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
 MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:13:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:25:5-29:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:25:5-29:19
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:21:5-32:19
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:21:5-32:19
 MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.5] /home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/AndroidManifest.xml:11:5-20
 MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.5] /home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/33cefbe49c141ac70b1ea7170c6464d2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/33cefbe49c141ac70b1ea7170c6464d2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:30:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-functions:16.1.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-functions-16.1.2.aar/b548c39d4e46dd8575d3af03338bf36f/AndroidManifest.xml:12:5-18:19
@@ -227,8 +240,6 @@ MERGED from [org.webkit:android-jsc:r174650] /home/luke/.gradle/caches/transform
 MERGED from [org.webkit:android-jsc:r174650] /home/luke/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6f8e51b8d1602b816e0e2bcb42ab2ae4/AndroidManifest.xml:2:3-17
 MERGED from [com.github.clans:fab:1.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/AndroidManifest.xml:12:5-20
 MERGED from [com.github.clans:fab:1.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/AndroidManifest.xml:12:5-20
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/4bef2a032c3d8a5ca8034b5f3413fd7e/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/4bef2a032c3d8a5ca8034b5f3413fd7e/AndroidManifest.xml:22:5-20
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.4.aar/54b51e040a580bf04de0e05226f86fe6/AndroidManifest.xml:54:5-20
@@ -239,6 +250,8 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/luke/.gradle/caches/
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/luke/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/e9ba7b362f75c7cac28e2798b25d57b5/AndroidManifest.xml:11:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:31:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:31:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/luke/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/365a20190c4fc8662ffa0ab7f4fbcd57/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/luke/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/365a20190c4fc8662ffa0ab7f4fbcd57/AndroidManifest.xml:8:5-20
 MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/3889b30a94f693db2727f25e1a76d506/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/3889b30a94f693db2727f25e1a76d506/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:7:5-20
@@ -307,24 +320,36 @@ MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/R
 MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.1] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/791f7c098274e7656fe06bf97a4c6ecd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:8:5-10:41
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization:0.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-localization-0.1.0.aar/04db23fddc8dfd2033317518431eda49/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization:0.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-localization-0.1.0.aar/04db23fddc8dfd2033317518431eda49/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.3.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.3.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:6:5-9:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:6:5-9:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-2.2.9.aar/d0843f4ad55c68fae832150797c2104d/AndroidManifest.xml:8:5-11:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-2.2.9.aar/d0843f4ad55c68fae832150797c2104d/AndroidManifest.xml:8:5-11:51
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.5] /home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.5] /home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/AndroidManifest.xml:20:5-44
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:exifinterface:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/d5987e3a67c6a13fcb6f9e71fc51d72d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/d5987e3a67c6a13fcb6f9e71fc51d72d/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/33cefbe49c141ac70b1ea7170c6464d2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/33cefbe49c141ac70b1ea7170c6464d2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-functions:16.1.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-functions-16.1.2.aar/b548c39d4e46dd8575d3af03338bf36f/AndroidManifest.xml:6:5-8:41
@@ -395,8 +420,6 @@ MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/c
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:7:5-43
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/83b4752ac56a2333ad6ae769038fe770/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/83b4752ac56a2333ad6ae769038fe770/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39a93501840afe75c00edf153578e790/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a134f8b610cabcc4b2eb7d19e2561b71/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a134f8b610cabcc4b2eb7d19e2561b71/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/857eecc5d47655e7835f9350308f7761/AndroidManifest.xml:5:5-7:41
@@ -409,8 +432,6 @@ MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1
 MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/dd64dcd576e9dfe0f125466e549078aa/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.clans:fab:1.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.clans:fab:1.6.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/b3dc027bbd47acf7401b542aa820fdc9/AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:5:5-43
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/4bef2a032c3d8a5ca8034b5f3413fd7e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/4bef2a032c3d8a5ca8034b5f3413fd7e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/62a20909335bdfccb46e36135b165dce/AndroidManifest.xml:5:5-44
@@ -427,20 +448,24 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/trans
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:27:5-43
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a0680231ca5b1309d0e73188de2e5fbb/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a0680231ca5b1309d0e73188de2e5fbb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/luke/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/365a20190c4fc8662ffa0ab7f4fbcd57/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/luke/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/365a20190c4fc8662ffa0ab7f4fbcd57/AndroidManifest.xml:6:5-43
 MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/3889b30a94f693db2727f25e1a76d506/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/3889b30a94f693db2727f25e1a76d506/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:5:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a6b853f1cca0a943cec20a8fc9fca8a1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a6b853f1cca0a943cec20a8fc9fca8a1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e6a731016bf4206d6299c8ea5e965c6f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e6a731016bf4206d6299c8ea5e965c6f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:20:5-44
 INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:9:9-48
 	android:targetSdkVersion
 		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
@@ -463,8 +488,8 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/luke/.gradle/caches/
 		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:23:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:22:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/0310190a0e856e9dbc31b56a7531a82e/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/0310190a0e856e9dbc31b56a7531a82e/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-firestore:17.1.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.5.aar/77527633283f230a12185ee762abd437/AndroidManifest.xml:9:5-79
@@ -484,11 +509,72 @@ MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1
 	android:name
 		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:26:5-28:35
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:11:5-13:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:27:9-41
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:12:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/96f7d5e910e7079b9278af43ad254d84/AndroidManifest.xml:28:9-32
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:13:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:14:5-16:36
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:19:5-58
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:19:5-58
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:16:9-33
+		MERGED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:14:5-16:36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:15:9-45
+uses-feature#android.hardware.location.gps
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:17:5-19:36
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:13:5-15:36
+MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:18:9-53
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:23:22-73
+service#com.mapbox.services.android.telemetry.service.TelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:28:9-98
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:28:18-95
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:10:9-61
+uses-feature#android.hardware.location
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:12:19-59
+uses-feature#android.hardware.telephony
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:17:9-50
+service#com.mapzen.android.lost.internal.FusedLocationProviderService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:22:9-24:39
+	android:process
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:23:13-89
+service#com.mapzen.android.lost.internal.GeofencingIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:25:9-29:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:25:18-89
+intent-filter#action:name:com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:26:13-28:29
+action#com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:27:17-91
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:27:25-88
+service#com.mapzen.android.lost.internal.DwellIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:30:9-31:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:30:18-84
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/3999c3a26ec971af231841b9bbcea0ed/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -651,8 +737,6 @@ ADDED from [com.google.firebase:firebase-common:16.0.4] /home/luke/.gradle/cache
 		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/bc0fafb07e146034b3c45ae68e70e39f/AndroidManifest.xml:11:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/d2909240ce491686612f3ba0bb34bee7/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/luke/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/da41a3e4de4111c1f48520319dd2f74a/AndroidManifest.xml:8:9-10:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/d2909240ce491686612f3ba0bb34bee7/AndroidManifest.xml:25:13-66
 	android:name

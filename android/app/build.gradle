@@ -158,10 +158,11 @@ dependencies {
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-fs')
 
-    implementation (project(':react-native-maps')){
-       exclude group: 'com.google.android.gms', module: 'play-services-base'
-       exclude group: 'com.google.android.gms', module: 'play-services-maps'
-   }
+    implementation (project(':mapbox-react-native-mapbox-gl')) {
+            implementation ('com.squareup.okhttp3:okhttp:3.6.0') {
+                force = true
+        }
+    }
 
     implementation (project(':react-native-camera')) {
         exclude group: "com.google.android.gms"
@@ -176,7 +177,6 @@ dependencies {
 
     implementation project(':react-native-firebase')
     implementation "com.google.android.gms:play-services-base:16.0.1"
-    implementation 'com.google.android.gms:play-services-maps:16.0.0'
     implementation "com.google.firebase:firebase-core:16.0.4"
     implementation "com.google.firebase:firebase-auth:16.0.5"
     implementation "com.google.firebase:firebase-storage:16.0.4"
