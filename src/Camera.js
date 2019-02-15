@@ -139,18 +139,22 @@ export default class Camera extends Component {
   }
 
   checkButtonFuntion = async () => {
-    clearInterval(this.intervalID);
-    const DateandTime = new Date().getTime();
-    this.returnToMap();
-    this.setState({ path: null });
-    this.uploadPicture(DateandTime)
-    .then((success) => {
-      this.databaseUpload(DateandTime);
-      return console.log("Check Button Function Successful")
-    })
-    .catch((error) => {
-      return console.log("Check Button Function Error: " + error)
-    });
+    if (this.state.geolocation != null) {
+      clearInterval(this.intervalID);
+      const DateandTime = new Date().getTime();
+      this.returnToMap();
+      this.setState({ path: null });
+      this.uploadPicture(DateandTime)
+      .then((success) => {
+        this.databaseUpload(DateandTime);
+        return console.log("Check Button Function Successful")
+      })
+      .catch((error) => {
+        return console.log("Check Button Function Error: " + error)
+      });
+    } else {
+      findCoordinates();
+    }
   };
 
   componentWillMount () {
@@ -163,8 +167,7 @@ export default class Camera extends Component {
   }
 
   componentDidMount () {
-    const { currentUser } = firebase.auth()
-    this.setState({ currentUser })
+    this.setState({ currentUser: firebase.auth() })
   };
 
   componentWillUnmount () {

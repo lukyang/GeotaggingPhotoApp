@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Image, Dimensions } from 'react-native';
 import { PermissionsAndroid } from 'react-native';
 import {Navigation} from 'react-native-navigation';
 import Icon from 'react-native-vector-icons/Feather';
 import firebase from 'react-native-firebase';
 import Mapbox from '@mapbox/react-native-mapbox-gl';
+import Lightbox from 'react-native-lightbox';
 
 Mapbox.setAccessToken('pk.eyJ1IjoibHVreWFuZyIsImEiOiJjamwzazB5czEwMDM4M3BscnMzYXR5MXloIn0.AFqzEihgBGah3yk9ziLTvg');
 
@@ -27,15 +28,24 @@ async function requestLocationPermission() {
   }
 };
 
-requestLocationPermission();
-
 export default class Map extends Component {
+  constructor(props) {
+    super(props);
+    Navigation.events().bindComponent(this);
+  };
+
   static options() {
     return {
       statusBar: {
         backgroundColor: '#00766c',
       },
       topBar: {
+        leftButtons: [
+          {
+            id: "sideMenu",
+            icon: require("./icons/hamburger.png"),
+          }
+        ],
         title: {
           text: 'Map',
           color: 'white',
@@ -47,6 +57,7 @@ export default class Map extends Component {
         background: {
           color: '#009688',
         },
+        animate: false,
       },
     }
   };
@@ -55,7 +66,20 @@ export default class Map extends Component {
     currentUser: null,
     markers: [],
     updateStatus: false,
+    imagePopupStyle: {
+      flex: 1
+    },
   };
+
+  navigationButtonPressed({ buttonId }) {
+    Navigation.mergeOptions('Drawer', {
+      sideMenu: {
+        left: {
+          visible: true, 
+        },
+      },
+    });
+  }
 
   getDownloadURL = async () => {
     firebase
@@ -87,7 +111,6 @@ export default class Map extends Component {
       })
     })
   };
-
   
   componentWillMount () {
     clearInterval(this.getLocationInterval);
@@ -99,24 +122,20 @@ export default class Map extends Component {
         this.setState({updateStatus: true});
       }
     }, 3000);
-    // this.timeoutID = setTimeout(() => {
-    //   clearInterval(this.intervalID);
-    // }, 10000)
   };
 
   componentDidMount () {
-    const { currentUser } = firebase.auth()
-    this.setState({ currentUser })
-  }
+    this.setState({ currentUser: firebase.auth() });
+    requestLocationPermission();
+  };
 
   componentWillUnmount () {
-    // clearTimeout(this.timeoutID);
     clearInterval(this.intervalID);
     this.setState({
       updateStatus: false,
       markers: []
     })
-  }
+  };
 
   render() {
     return (
@@ -132,7 +151,19 @@ export default class Map extends Component {
                   key={index}
                   id={markers.id}
                   coordinate={[markers.coordinate.longitude, markers.coordinate.latitude]}>
-                  <Image source={{uri: markers.imagePath}}  style={{width: 63, height: 112}}/>
+                  <Lightbox
+                    renderContent={() => {
+                      return <Image
+                      source={{uri: markers.imagePath}}
+                      style={{
+                        height: Dimensions.get('window').height,
+                        width: Dimensions.get('window').width,
+                      }}
+                      />
+                    }}
+                  >
+                    <Image source={{uri: markers.imagePath}}  style={{width: 63, height: 112, borderRadius: 5}}/>
+                  </Lightbox>
                 </Mapbox.PointAnnotation>
               )
             })}

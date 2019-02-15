@@ -22,19 +22,30 @@ export const goToAuth = () => Navigation.setRoot({
 
 export const goHome = () =>  Navigation.setRoot({
     root: {
-      stack: {
-        id: "HomeStack",
-        children: [
-          {
+        sideMenu: {
+          id: "sideMenu",
+          left: {
             component: {
-              name: "Camera"
+              id: "Drawer",
+              name: "Drawer"
             }
-        },
-          {
-            component: {
-            name: "Map"
+          },
+          center: {
+            stack: {
+                id: "HomeStack",
+                children: [
+                    {
+                    component: {
+                        name: "Camera"
+                    }
+                },
+                    {
+                    component: {
+                    name: "Map"
+                    }
+                }]
+            }
           }
-        }]
+        }
       }
-    }
   });
