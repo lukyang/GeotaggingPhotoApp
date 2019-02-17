@@ -109,10 +109,10 @@ export default class Camera extends Component {
     } : this.takePicture()}
   }
 
-  uploadPicture = async (DateandTime) => {
+  uploadPicture = async (timestamp) => {
     firebase
     .storage()
-    .ref("UserPhotos/" + "IMG" + DateandTime + ".jpg")
+    .ref("UserPhotos/" + "IMG" + timestamp + ".jpg")
     .putFile(this.state.uploadPath)
     .then(success => {
       RNFS.unlink(this.state.uploadPath);
@@ -123,12 +123,13 @@ export default class Camera extends Component {
     });
   };
 
-  databaseUpload = async (DateandTime) => {
-    firebase.firestore().collection("Images").doc("IMG" + DateandTime + ".jpg").set({
-      id:  "IMG" + DateandTime,
-      path: "UserPhotos/" + "IMG" + DateandTime + ".jpg",
+  databaseUpload = async (timestamp) => {
+    firebase.firestore().collection("Images").doc("IMG" + timestamp).set({
+      id:  "IMG" + timestamp,
+      path: "UserPhotos/" + "IMG" + timestamp + ".jpg",
       latitude: this.state.geolocation.coords.latitude,
-      longitude: this.state.geolocation.coords.longitude
+      longitude: this.state.geolocation.coords.longitude,
+      timeUploaded: timestamp,
     })
     .then(success => {
       return console.log("Firebase database uploaded successfully");
@@ -141,19 +142,19 @@ export default class Camera extends Component {
   checkButtonFuntion = async () => {
     if (this.state.geolocation != null) {
       clearInterval(this.intervalID);
-      const DateandTime = new Date().getTime();
+      const timestamp = new Date().getTime();
       this.returnToMap();
       this.setState({ path: null });
-      this.uploadPicture(DateandTime)
+      this.uploadPicture(timestamp)
       .then((success) => {
-        this.databaseUpload(DateandTime);
+        this.databaseUpload(timestamp);
         return console.log("Check Button Function Successful")
       })
       .catch((error) => {
         return console.log("Check Button Function Error: " + error)
       });
     } else {
-      findCoordinates();
+      this.findCoordinates();
     }
   };
 
@@ -166,9 +167,7 @@ export default class Camera extends Component {
     }, 10000)
   }
 
-  componentDidMount () {
-    this.setState({ currentUser: firebase.auth() })
-  };
+  componentDidMount () {};
 
   componentWillUnmount () {
     clearInterval(this.getLocationInterval);

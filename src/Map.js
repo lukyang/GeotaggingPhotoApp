@@ -43,7 +43,7 @@ export default class Map extends Component {
         leftButtons: [
           {
             id: "sideMenu",
-            icon: require("./icons/hamburger.png"),
+            icon: require("./icons/burger.png"),
           }
         ],
         title: {
@@ -63,7 +63,6 @@ export default class Map extends Component {
   };
 
   state = {
-    currentUser: null,
     markers: [],
     updateStatus: false,
     imagePopupStyle: {
@@ -113,7 +112,6 @@ export default class Map extends Component {
   };
   
   componentWillMount () {
-    clearInterval(this.getLocationInterval);
     this.getDownloadURL();
     this.intervalID = setInterval(() => {
       if (this.state.updateStatus === true) {
@@ -125,7 +123,6 @@ export default class Map extends Component {
   };
 
   componentDidMount () {
-    this.setState({ currentUser: firebase.auth() });
     requestLocationPermission();
   };
 

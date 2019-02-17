@@ -11,23 +11,40 @@ const functions = require('firebase-functions');
 'use strict';
 
 // Cut off time. Child nodes older than this will be deleted.
-const CUT_OFF_TIME = 2 * 60 * 60 * 1000; // 2 Hours in milliseconds.
+const CUT_OFF_TIME = 1 * 60 * 60 * 1000; // 2 Hours in milliseconds.
 
 /**
  * This database triggered function will check for child nodes that are older than the
  * cut-off time. Each child needs to have a `timestamp` attribute.
  */
-exports.deleteOldItems = functions.database.ref('/path/to/items/{pushId}').onWrite(async (change) => {
-  const ref = change.after.ref.parent; // reference to the parent
-  const now = Date.now();
-  const cutoff = now - CUT_OFF_TIME;
-  const oldItemsQuery = ref.orderByChild('timestamp').endAt(cutoff);
-  const snapshot = await oldItemsQuery.once('value');
-  // create a map with all children that need to be removed
-  const updates = {};
-  snapshot.forEach(child => {
-    updates[child.key] = null;
-  });
-  // execute all updates in one go and return the result to end the function
-  return ref.update(updates);
+exports.deleteOldItems = functions.firestore.document("Images/{documentID}").onCreate((snap, context) => {
+  const time = new Date().getTime;
+  admin
+  .firestore()
+  .collection("Images")
+  .get()
+  .then((doc) => {
+    doc.docs.map((value) => {
+      if ((time - value._data.timeUploaded) >= CUT_OFF_TIME) {
+        // eslint-disable-next-line promise/no-nesting
+        admin.firestore().collection("Images").doc(value._data.id).delete().then(() => {
+          return console.log("Firestore delete succesful")
+        }).catch(
+          console.log("Firestore delete error")
+        );
+        // eslint-disable-next-line promise/no-nesting
+        admin.storage().bucket().file("UserPhotos/" + value._data.id + ".jpg").delete().then(() => {
+          return console.log("Storage delete successful")
+        }).catch(
+          console.log("Storage delete error")
+        )
+      } else {
+        return console.log("Photo is still new")
+      }
+    });
+    return console.log("Function successful")
+  })
+  .catch(
+    console.log('Error')
+  )
 });
