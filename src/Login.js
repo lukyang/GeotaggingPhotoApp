@@ -21,6 +21,9 @@ export default class Login extends Component {
         visible: false,
         drawBehind: true,
         animate: false
+      },
+      layout: {
+        orientation: ['portrait']
       }
     };
   };

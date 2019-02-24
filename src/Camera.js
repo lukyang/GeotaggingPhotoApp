@@ -23,6 +23,9 @@ export default class Camera extends Component {
         visible: false,
         drawBehind: true,
         animate: false
+      },
+      layout: {
+        orientation: ['portrait']
       }
     };
   };

@@ -22,6 +22,9 @@ export default class Signup extends Component {
         visible: false,
         drawBehind: true,
         animate: false
+      },
+      layout: {
+        orientation: ['portrait']
       }
     };
   };

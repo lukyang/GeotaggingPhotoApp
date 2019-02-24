@@ -59,6 +59,9 @@ export default class Map extends Component {
         },
         animate: false,
       },
+      layout: {
+        orientation: ['portrait']
+      },
     }
   };
 

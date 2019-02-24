@@ -22,6 +22,9 @@ export default class Drawer extends Component {
               color: '#009688',
             },
           },
+          layout: {
+            orientation: ['portrait']
+          },
         }
       };
 
