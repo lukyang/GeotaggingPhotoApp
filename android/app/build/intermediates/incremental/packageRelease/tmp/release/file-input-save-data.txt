@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 26 20:45:03 PST 2019
+#Tue Feb 26 21:03:14 PST 2019
 5.base=/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 42.base=/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 22.path=lib/armeabi-v7a/libglog.so

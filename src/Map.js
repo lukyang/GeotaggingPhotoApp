@@ -43,7 +43,7 @@ export default class Map extends Component {
         leftButtons: [
           {
             id: "sideMenu",
-            icon: require("./icons/burger.png"),
+            icon: require("./icons/menu.png"),
           }
         ],
         title: {
