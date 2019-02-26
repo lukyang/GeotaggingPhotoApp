@@ -1,10 +1,10 @@
-#Sun Feb 24 12:51:16 PST 2019
+#Tue Feb 26 19:34:06 PST 2019
 path.2=classes3.dex
 path.1=classes2.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0
-base.1=/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0
-base.0=/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.2=/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.1=/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.0=/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/transforms/dexMerger/debug/0

@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:56
+-keep class com.luke.geotaggingphotoapp.MainApplication { <init>(...); }
+

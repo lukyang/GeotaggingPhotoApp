@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1ad42cc73192bb71f959f34dc91f3cfd/res/values-fr/values.xml",
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "outputFile": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml",
+            "outputFile": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1ad42cc73192bb71f959f34dc91f3cfd/res/values-fr/values.xml",

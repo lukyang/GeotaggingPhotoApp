@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_item.xml",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/res/layout-v21/bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_small_item.xml",
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_small_item.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/res/layout-v21/bottom_navigation_small_item.xml"
     },
     {
-        "merged": "/media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_item.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.5.aar/b954c97de0c88b32fc4130cdfd067dd9/res/layout-v21/bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/res/layout-v21/notification_template_icon_group.xml"
     }
 ]

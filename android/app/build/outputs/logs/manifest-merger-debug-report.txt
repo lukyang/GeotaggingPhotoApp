@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:multidex:1.0.2] /home/luke/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0d5d525e2f050940e9113d98918075eb/AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:2:1-17:12
-MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:2:1-12:12
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:2:1-14:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization:0.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-localization-0.1.0.aar/04db23fddc8dfd2033317518431eda49/AndroidManifest.xml:2:1-10:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.3.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.3.0.aar/9f8416ead44f3341e0d65ad0b800623f/AndroidManifest.xml:2:1-10:12
@@ -56,7 +56,7 @@ MERGED from [com.android.support:support-core-utils:27.1.1] /home/luke/.gradle/c
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ae0f43bc893b87d644cad75a3889a6c6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9915d4ae52e6d4c0e3268ac28caaf6e7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/AndroidManifest.xml:17:1-22:12
-MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-18:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:2:1-19:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/83b4752ac56a2333ad6ae769038fe770/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a134f8b610cabcc4b2eb7d19e2561b71/AndroidManifest.xml:2:1-9:12
@@ -81,29 +81,29 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/luke/.gradle/cach
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e6a731016bf4206d6299c8ea5e965c6f/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:17:1-22:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 	package
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:2:5-42
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:12:5-67
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:12:5-67
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:21:5-67
@@ -135,57 +135,57 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/luke/.gradle/caches/
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.4] /home/luke/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/919b343f0e26a957d64f1cb0f58f08e1/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:5:5-81
-MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
-MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:5:5-81
+MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:5-78
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:5-78
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:11:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:5-81
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:5-77
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:11:5-78
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:5-77
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:22-75
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:8:22-75
 uses-permission#android.permission.CAMERA
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:9:5-65
-MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
-MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:9:22-62
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:10:5-70
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:10:5-70
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:10:22-68
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:11:22-77
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:11:22-77
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:13:5-88
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:13:5-88
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:13:22-85
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:13:22-85
 application
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:15:5-37:19
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:13:5-20
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:15:5-37:19
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:13:5-20
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:25:5-29:19
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:25:5-29:19
 MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:21:5-32:19
@@ -257,75 +257,75 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] 
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/4c5c885855c4f1a072cfd43f03fec17d/AndroidManifest.xml:7:5-20
 	android:label
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:17:7-39
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:17:7-39
 	android:icon
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:18:7-41
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:18:7-41
 	android:allowBackup
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:19:7-34
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:19:7-34
 	android:theme
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:20:7-38
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:20:7-38
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:16:7-38
 meta-data#com.google.android.geo.API_KEY
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:21:7-23:66
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:21:7-23:66
 	android:value
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:23:9-64
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:23:9-64
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:22:9-54
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:22:9-54
 activity#com.luke.geotaggingphotoapp.MainActivity
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:24:7-35:18
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:24:7-35:18
 	android:screenOrientation
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:28:9-45
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:28:9-45
 	android:label
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:26:9-41
 	android:windowSoftInputMode
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:29:9-51
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:29:9-51
 	android:configChanges
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:27:9-79
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:27:9-79
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:25:9-37
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:25:9-37
 intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:30:9-34:25
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:30:9-34:25
 action#android.intent.action.MAIN
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:31:13-65
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:31:13-65
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:31:21-62
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:31:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:32:13-73
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:32:13-73
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:32:23-70
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:32:23-70
 action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:33:6-70
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:33:6-70
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:33:14-68
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:33:14-68
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:36:7-84
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:12:9-14:40
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:12:9-14:40
+ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:36:7-84
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:12:9-14:40
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:14:13-37
+		ADDED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:36:17-81
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:36:17-81
 uses-sdk
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.2] /home/luke/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0d5d525e2f050940e9113d98918075eb/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /home/luke/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/0d5d525e2f050940e9113d98918075eb/AndroidManifest.xml:20:5-43
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/084f569010e0108fa946fbdf793b3c64/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57Debug/processReactNative57DebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /home/luke/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/294b11d748527017ee554268e8968f59/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/18b58a6cebb933d5a8c004d79adf0c99/AndroidManifest.xml:8:5-10:41
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:mapbox-react-native-mapbox-gl] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/@mapbox/react-native-mapbox-gl/android/rctmgl/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.9] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-services-2.2.9.aar/1f1fbb5dff789353b2277d3ecf33b328/AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization:0.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-localization-0.1.0.aar/04db23fddc8dfd2033317518431eda49/AndroidManifest.xml:6:5-8:41
@@ -414,8 +414,8 @@ MERGED from [com.android.support:transition:27.1.0] /home/luke/.gradle/caches/tr
 MERGED from [com.android.support:transition:27.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9915d4ae52e6d4c0e3268ac28caaf6e7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/luke/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cf1bdfc4819ffb68e91f8fd375f4c9b1/AndroidManifest.xml:20:5-44
-MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:7:5-43
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/luke/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/83b4752ac56a2333ad6ae769038fe770/AndroidManifest.xml:5:5-7:41
@@ -462,20 +462,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/tra
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6000120ecff6a5575ff76622de585e08/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5939bb9d2ceedc0695d4fd752b313cdb/AndroidManifest.xml:20:5-44
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:9:9-48
 	android:targetSdkVersion
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-68
+ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-68
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/5c475a57e473f0faf596698dc963a3f1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/5c475a57e473f0faf596698dc963a3f1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/735d9aee47f260f5074a99e3d6aa21dd/AndroidManifest.xml:25:5-68
@@ -485,9 +485,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/luke/.gra
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/70d31db0d4ae53d05cf6c6256780ebde/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/70d31db0d4ae53d05cf6c6256780ebde/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-65
+		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-79
+ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:22:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/0310190a0e856e9dbc31b56a7531a82e/AndroidManifest.xml:22:5-79
@@ -507,7 +507,7 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/luke/.gradle/caches/
 MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/dd64dcd576e9dfe0f125466e549078aa/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.16.1] /home/luke/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/dd64dcd576e9dfe0f125466e549078aa/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-76
+		ADDED from [:react-native-firebase] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-76
 uses-feature#0x00020000
 ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:11:5-13:35
 	android:glEsVersion
@@ -520,7 +520,7 @@ MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms
 MERGED from [com.mapzen.android:lost:3.0.4] /home/luke/.gradle/caches/transforms-1/files-1.1/lost-3.0.4.aar/d9bf29e07cac5cf3c1a1d03747124787/AndroidManifest.xml:19:5-58
 	android:required
 		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:16:9-33
-		MERGED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:14:5-16:36
+		MERGED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:14:5-16:36
 	android:name
 		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.4.1] /home/luke/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-5.4.1.aar/78df1efbcc780299c3729f353bc42657/AndroidManifest.xml:15:9-45
 uses-feature#android.hardware.location.gps
@@ -742,17 +742,17 @@ ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/luke/.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/luke/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/d2909240ce491686612f3ba0bb34bee7/AndroidManifest.xml:24:13-58
 uses-feature#android.hardware.camera
-ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-13:36
+ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-13:36
 	android:required
-		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:9-33
+		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:9-33
 	android:name
-		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-47
+		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-16:36
+ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:9-33
+		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:9-57
+		ADDED from [:react-native-camera] /media/luke/Storage/Programming Files/GeotaggingPhotoApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:9-57
 provider#com.crashlytics.android.CrashlyticsInitProvider
 ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:12:9-16:38
 	android:authorities
@@ -764,4 +764,4 @@ ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/ca
 	android:name
 		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] /home/luke/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/19162c907dc71a4a6c41b73e43ac0b98/AndroidManifest.xml:13:13-75
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /media/luke/Storage/Programming Files/React Native/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4

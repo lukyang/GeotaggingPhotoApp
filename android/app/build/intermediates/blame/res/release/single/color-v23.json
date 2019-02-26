@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/539cf5190e8cea4a77799bce36a9fabc/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/media/luke/Storage/Programming Files/GeotaggingPhotoApp/android/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5f320ca6ad27b683d8d69ea8564cd506/res/color-v23/abc_tint_default.xml"
+    }
+]
