@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./geotaggingphotoapp-firebase-adminsdk-lwiwp-d9a8c1d8af.json");
+var serviceAccount = require("./geotaggingphotoapp-8286453226fb.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -20,7 +20,7 @@ admin.firestore().settings( { timestampsInSnapshots: true })
  * cut-off time. Each child needs to have a `timestamp` attribute.
  */
 
-const CUT_OFF_TIME = 2 * 60 * 60 * 1000; // 1 Hours in milliseconds.
+const CUT_OFF_TIME = 2 * 60 * 60 * 1000; // 2 Hours in milliseconds.
 
 databaseDelete = (document) => {
   admin.firestore().collection("Images").doc(document).delete().then(() => {

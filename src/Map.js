@@ -7,7 +7,7 @@ import firebase from 'react-native-firebase';
 import Mapbox from '@mapbox/react-native-mapbox-gl';
 import Lightbox from 'react-native-lightbox';
 
-Mapbox.setAccessToken('pk.eyJ1IjoibHVreWFuZyIsImEiOiJjamwzazB5czEwMDM4M3BscnMzYXR5MXloIn0.AFqzEihgBGah3yk9ziLTvg');
+Mapbox.setAccessToken('API_KEY');
 
 async function requestLocationPermission() {
   try {
